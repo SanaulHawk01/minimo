@@ -1,0 +1,86 @@
+
+
+/*font family*/
+
+@font-face{
+src: url(../font/Playfair_Display/static/playfairdisplay-regular.ttf);
+font-family: playfairdisplay-regular;
+}
+
+/*font family*/
+
+/*common css Start*/
+
+body{
+	margin: 0;
+	font-family: playfairdisplay-regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+
+/*common css End*/
+
+/*header start*/
+
+header{
+	padding: 40px 0;
+}
+
+.continer{
+	overflow: hidden;
+	margin: 0 auto;
+    width: 90%;
+/*    border: 1px solid red;*/
+}
+
+.logo{
+	margin-top: 4px;
+	float: left;
+	width: 12%;
+/*	border: 1px solid green;*/
+}
+
+.logo a{
+	display: inline-block;
+    width: 100%;
+}
+
+.logo a img{
+	width: 100%;
+}
+
+.menu{
+	float: right;
+	width: 70%;
+/*	border: 1px solid blue;*/
+}
+
+.menu ul{
+	float: right;
+}
+
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+
+.menu ul li a{
+    padding: 0 85px;
+    color: #626262;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .33s linear;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+.menu ul li a:hover{
+	color: #000000;
+}
+
+/*header End*/
+
